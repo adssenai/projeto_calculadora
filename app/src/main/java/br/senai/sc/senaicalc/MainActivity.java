@@ -93,6 +93,16 @@ public class MainActivity extends AppCompatActivity {
         verificarOperacao("/");
     }
 
+    public void onClickLimpar(View v){
+        operacao = "";
+        primeironumero = "";
+        segundonumero = "";
+        numero1 = 0;
+        numero2 = 0;
+        resultado = 0;
+        display.setText("");
+    }
+
 
 
     public void onClickIgual(View v){
